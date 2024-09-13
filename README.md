@@ -30,4 +30,9 @@ Tests should be written from the perspective of an external consumer. That is, i
 
 Implementations of specific functions should be reviewed by cryptographers and engineers during development. This should form a bottom up guarantee of security. e.g. reviewers sign off on low level functions, then are able to sign off on higher level functions that consume lower level functions that have previously been reviewed. Approvals should be noted in comments near the source implementation and should include the name of each reviewer, and the commit hash that was reviewed.
 
+## Primitives and algorithms
+
+Prospective primitives and algorithms that may be implemented:
+- [More Efficient Commitments from Structured Lattice Assumptions](https://eprint.iacr.org/2016/997.pdf)
+- [Efficient Zero-Knowledge Proofs for Commitments from Learning With Errors over Rings](https://eprint.iacr.org/2014/889.pdf)
 
